@@ -56,15 +56,55 @@
 		897835F7282285F600F1FD60 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				897835F8282285F600F1FD60 /* AppDelegate.swift */,
-				897835FA282285F600F1FD60 /* SceneDelegate.swift */,
-				897835FC282285F600F1FD60 /* ViewController.swift */,
-				897835FE282285F600F1FD60 /* Main.storyboard */,
-				89783601282285F700F1FD60 /* Assets.xcassets */,
-				89783603282285F700F1FD60 /* LaunchScreen.storyboard */,
-				89783606282285F700F1FD60 /* Info.plist */,
+				89783610282286D600F1FD60 /* Models */,
+				8978360F282286C800F1FD60 /* ViewControllers */,
+				8978360E282286BD00F1FD60 /* Storyboards */,
+				8978360C282286A600F1FD60 /* App */,
+				8978360D282286B000F1FD60 /* Resources */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		8978360C282286A600F1FD60 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				897835F8282285F600F1FD60 /* AppDelegate.swift */,
+				897835FA282285F600F1FD60 /* SceneDelegate.swift */,
+				89783606282285F700F1FD60 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8978360D282286B000F1FD60 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89783601282285F700F1FD60 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8978360E282286BD00F1FD60 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				897835FE282285F600F1FD60 /* Main.storyboard */,
+				89783603282285F700F1FD60 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8978360F282286C800F1FD60 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				897835FC282285F600F1FD60 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		89783610282286D600F1FD60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +329,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q82X97DSZ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +357,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q82X97DSZ5;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_FILE = Calculator/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
